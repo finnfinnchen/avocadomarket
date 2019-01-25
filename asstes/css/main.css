@@ -1,3 +1,18 @@
+/*mouseenter 无法看到一只手*/
+.btn{
+  cursor: pointer;
+}
+.avo{
+  opacity:1;
+  position: relative;
+  overflow: auto;
+}
+.avo.visible{
+  opacity:1;
+  position: relative;
+  overflow:auto;
+}
+
 /* This line is added by rong */
 html{
   -webkit-user-select: none;

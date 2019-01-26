@@ -1,4 +1,6 @@
-/*mouseenter 无法看到一只手*/
+.st0 {
+  fill-opacity: 0
+}
 .btn{
   cursor: pointer;
 }

@@ -12,6 +12,8 @@
 
 .avo.visible{
   opacity:1;
+  position: absolute;
+  overflow: auto;
 }
 
 html{

@@ -1,5 +1,6 @@
+var count = 0;
+var countEl = document.getElementById("count");
 
-count = 0;
 document.getElementById("plus").onclick = function() {plus()};
 function plus()
     {

@@ -1,14 +1,20 @@
 //market game//
-//jq
+//jq //让牛油果依次出现，done
 $('.btn').click(function(event){
-  $('.avo').addClass('visible');
+  $('#a1').addClass('visible');
   add();
+  $('.btn').click(function(event){
+    $('#a2').addClass('visible');
+    $('.btn').click(function(event){
+      $('#a3').addClass('visible');
+    });
+  });
 });
 //js-button function
 var count = 0;
 function add()
     {
-      if(count < 4){
+      if(count < 3){
         count++;
         // 使用console打印调试信息
         console.log("count:" + count);

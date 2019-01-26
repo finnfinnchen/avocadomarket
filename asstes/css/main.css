@@ -6,15 +6,13 @@
 }
 .avo{
   opacity:0;
-  position: relative;
-  overflow: auto;
+  transform：position（relative);
 }
-
 .avo.visible{
   opacity:1;
-  position: absolute;
-  overflow: auto;
+  transform：position（relative); /* 还是没成功 */
 }
+
 
 html{
   font-family: 'Helvetica Neue',Helvetica,Arial,PingFangSC-Regular,sans-serif;

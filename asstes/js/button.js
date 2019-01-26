@@ -10,6 +10,13 @@ function plus()
       }
       else
       {
-        document.getElementById("plus").disabled=true;
+        /* 
+        Little difference between two syntax
+            .disabled   the button unable to be clicked,
+            .onclick = ' '   the button still could be clicked, just no actions
+        You may choose one according to your demands
+        */
+        document.getElementById("plus").onclick = '';
+        // document.getElementById("plus").disabled=true;
       }
     };

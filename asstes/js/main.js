@@ -1,27 +1,23 @@
 //market game//
 //jq
-//我做的button是个废物
 $('.btn').click(function(event){
   $('.avo').addClass('visible');
-}
+  add();
+});
 //js-button function
-count = 0;
-document.getElementById("btn").onclick = function() {add()};
+var count = 0;
 function add()
     {
       if(count < 4){
         count++;
+        // 使用console打印调试信息
+        console.log("count:" + count);
       }
       else
       {
-        document.getElementById("btn").disabled=true;
+        console.log("count: have reached its maxium value" + count);
+        // 另一种输出调试信息的方法，显然过于粗暴，不如console
+        alert("You have had enough avocado!");
+        $('.btn').removeAttr('onclick');
       }
     };
-
-
-
-
-function goToAnchor(anchorId) {
-//    使用replace方法可以保证前一次浏览不会在浏览器中保留记录
-    window.location.replace(window.location.href.split('#')[0] + anchorId);
-  }

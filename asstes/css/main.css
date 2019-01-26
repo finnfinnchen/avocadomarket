@@ -9,10 +9,9 @@
   position: relative;
   overflow: auto;
 }
+
 .avo.visible{
   opacity:1;
-  position: relative;
-  overflow:auto;
 }
 
 html{

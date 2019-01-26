@@ -1,3 +1,4 @@
+//这是另一种思路，明显不行
 var i = 0;
 var count = 0;
 var icon = document.getElementById('a(i)');

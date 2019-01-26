@@ -1,5 +1,5 @@
 //market game//
-//jq //让牛油果依次出现，done
+//jq //让牛油果依次出现，ok！
 $('.btn').click(function(event){
   $('#a1').addClass('visible');
   add();

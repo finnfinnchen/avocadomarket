@@ -2,6 +2,7 @@
 var countries = [];
 $('.btn').click(function(event){
   countries.push(this.id);
+  Cookies.set("avocado",countries);
   add();
 });
 //Cookies.set("avocado",countries);

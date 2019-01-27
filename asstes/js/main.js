@@ -1,3 +1,47 @@
+//mouseenter
+//chile
+$("#chile").mouseenter(function(){
+    $("#chli").addClass('visible');
+});
+$("#chile").mouseleave(function(){
+    $("#chli").removeClass('visible');
+});
+//mexico
+$("#mexico").mouseenter(function(){
+    $("#mxc").addClass('visible');
+});
+$("#mexico").mouseleave(function(){
+    $("#mxc").removeClass('visible');
+});
+//
+$("#israel").mouseenter(function(){
+    $("#isr").addClass('visible');
+});
+$("#israel").mouseleave(function(){
+    $("#isr").removeClass('visible');
+});
+//
+$("#NewZealand").mouseenter(function(){
+    $("#nzl").addClass('visible');
+});
+$("#NewZealand").mouseleave(function(){
+    $("#nzl").removeClass('visible');
+});
+//
+$("#Columbia").mouseenter(function(){
+    $("#coml").addClass('visible');
+});
+$("#Columbia").mouseleave(function(){
+    $("#coml").removeClass('visible');
+});
+//
+$("#fairtrade").mouseenter(function(){
+    $("#ftr").addClass('visible');
+});
+$("#fairtrade").mouseleave(function(){
+    $("#ftr").removeClass('visible');
+});
+//
 //click function
 var countries = [];
 $('.btn').click(function(event){
@@ -21,11 +65,16 @@ function add()
       }
       if(count == 3)
       {
+        $(".continu").addClass('visible');
         console.log("count: have reached its maxium value" + count);
         // 另一种输出调试信息的方法，显然过于粗暴，不如console
         // alert会停止后续代码，此处不再用了
         // alert("You have had enough avocado!");
         // 有效地关闭btn click事件的方法
         $('.btn').off('click');
+
       }
     };
+$(".continu").click(function(event){
+window.location.href="/index2.html";
+})

@@ -1,6 +1,13 @@
 .st0 {
   fill-opacity: 0
 }
+.continu {
+  opacity: 0;
+}
+.continu.visible{
+  opacity:1;
+  cursor: pointer;
+}
 .btn{
   cursor: pointer;
 }
@@ -8,6 +15,12 @@
   opacity:0;
 }
 .avo.visible{
+  opacity:1;
+}
+.lables{
+  opacity:0;
+}
+.lables.visible{
   opacity:1;
 }
 

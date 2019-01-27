@@ -6,11 +6,9 @@
 }
 .avo{
   opacity:0;
-  transform：position（fixed);
 }
 .avo.visible{
   opacity:1;
-  transform：position（fixed); /* 还是没成功 */
 }
 
 

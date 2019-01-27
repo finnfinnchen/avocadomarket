@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+  <link rel="stylesheet" type="text/css" href="/asstes/css/main.css">
+  <title> AvocadoMarket</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js">
+</script>
+<script src="/asstes/js/js.cookie.js"></script>
+<script>
+  function checkCookie(){
+    var countries = Cookies.get('countries');
+    if (countries){
+      // cookie 存有想要的值
+  	}
+  	else {
+      // cookie 未存有想要的值
+  	}
+  }
+  function jsontest(){
+    // 新建字符串数组变量countries
+    var countries = [];
+    countries.push("chilli");
+    countries.push("mexico");
+    console.log("Data to be stored:");
+    console.log(countries);
+
+    // 使用json将数组序列化为字符串
+    var jsonStr = JSON.stringify(countries);
+    console.log("After json stringify:");
+    console.log(jsonStr);
+
+    // 存cookie
+    Cookies.set("avocado",jsonStr);
+
+    // 取cookie，使用getJSON方法，效果等同于Cookies.getJSON() + JSON.parse()
+    var avocados = Cookies.getJSON("avocado");
+    console.log("Data get from cookie:");
+    console.log(avocados);
+  }
+</script>
+<body onload="jsontest()"></body>
+
+</html>

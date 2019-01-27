@@ -1,6 +1,6 @@
 //click function
+var countries = [];
 $('.btn').click(function(event){
-  var countries = [];
   countries.push(this.id);
   add();
 });

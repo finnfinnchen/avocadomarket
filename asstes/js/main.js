@@ -1,5 +1,6 @@
 //click function
 $('.btn').click(function(event){
+  alert(this.id);
   add();
 });
 //js-button function

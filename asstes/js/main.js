@@ -4,7 +4,7 @@ $('.btn').click(function(event){
   countries.push(this.id);
   add();
 });
-Cookies.set("avocado",countries);
+//Cookies.set("avocado",countries);
 //js-button function
 var count = 0;
 function add()

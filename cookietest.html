@@ -25,8 +25,8 @@
     var countries = [];
     countries.push("chilli");
     countries.push("mexico");
-    console.log("Data to be stored:");
-    console.log(countries);
+    //console.log("Data to be stored:");
+    //console.log(countries);
 
     // 存cookie
     // cookie本身只能存字符串，需要现将js变量/对象序列化为字符串
@@ -36,8 +36,8 @@
 
     // 取cookie，使用getJSON方法，效果等同于Cookies.getJSON() + JSON.parse()
     var avocados = Cookies.getJSON("avocado");
-    console.log("Data get from cookie:");
-    console.log(avocados);
+    //console.log("Data get from cookie:");
+    //console.log(avocados);
   }
 </script>
 <body onload="jsontest()"></body>

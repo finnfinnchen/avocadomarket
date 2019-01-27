@@ -19,11 +19,12 @@ function add()
         // 使用console打印调试信息
         console.log("id: " + id + " has been set to visible");
       }
-      else
+      if(count == 3)
       {
         console.log("count: have reached its maxium value" + count);
         // 另一种输出调试信息的方法，显然过于粗暴，不如console
-        alert("You have had enough avocado!");
+        // alert会停止后续代码，此处不再用了
+        // alert("You have had enough avocado!");
         // 有效地关闭btn click事件的方法
         $('.btn').off('click');
       }

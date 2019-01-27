@@ -28,13 +28,11 @@
     console.log("Data to be stored:");
     console.log(countries);
 
-    // 使用json将数组序列化为字符串
-    var jsonStr = JSON.stringify(countries);
-    console.log("After json stringify:");
-    console.log(jsonStr);
-
     // 存cookie
-    Cookies.set("avocado",jsonStr);
+    // cookie本身只能存字符串，需要现将js变量/对象序列化为字符串
+    // 这里使用别人代码，帮我们做了这件事
+    // 直接存 对象， 数组即可
+    Cookies.set("avocado",countries);
 
     // 取cookie，使用getJSON方法，效果等同于Cookies.getJSON() + JSON.parse()
     var avocados = Cookies.getJSON("avocado");

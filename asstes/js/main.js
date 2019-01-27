@@ -1,7 +1,10 @@
 //click function
 $('.btn').click(function(event){
+  var countries = [];
+  countries.push(this.id);
   add();
 });
+//Cookies.set("avocado",countries);
 //js-button function
 var count = 0;
 function add()

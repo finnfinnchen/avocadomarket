@@ -35,4 +35,6 @@ for(var i = 0, len = avocados.length; i < len; ++i){
   }
 }
 
+//两位小数
+x = x.toFixed(2);
 $("#total").text(x);

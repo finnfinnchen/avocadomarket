@@ -1,3 +1,4 @@
+$('.continu').off('click');
 //mouseenter
 //chile
 $("#chile").mouseenter(function(){
@@ -72,6 +73,7 @@ function add()
         // alert("You have had enough avocado!");
         // 有效地关闭btn click事件的方法
         $('.btn').off('click');
+        $('.continu').on('click');
 
       }
     };

@@ -13,3 +13,7 @@
 .st4{
   font-family:'NittiBasic-Light';
 }
+*{
+  margin: 0;
+  padding: 0;
+}

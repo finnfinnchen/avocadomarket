@@ -27,5 +27,5 @@ $("#btnguaca").mouseleave(function(){
     $(".lab3").removeClass('visible');
 });
 $("#btnguaca").click(function(event){
-window.location.href="/index.html";
+window.location.href="/page1.html";
 })

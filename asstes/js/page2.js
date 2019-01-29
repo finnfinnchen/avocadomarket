@@ -12,8 +12,6 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       $(id).click(function(event){
       window.location.href="/part2.html";
       })
-
-      //$(id).attr('/index2.html');
       $(idadd).text('Water scarcity');
       var str = "Deforestation,Mafia,+424g CO2 emissions";
       var strs = str.split(",") ;
@@ -23,7 +21,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
     return d;
@@ -44,7 +42,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
     return d;
@@ -62,7 +60,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
         return d;
@@ -80,7 +78,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
         return d;
@@ -98,7 +96,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
         return d;
@@ -108,7 +106,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "fairtrade":
       $(id).text("AVOCADO FROM  FAIRTRADE");
       $(idadd).text("Helping small-scale farmers");
-      var str = "Promoting labor rights,Pushing environmental sustainability,Increasing consumer awareness";
+      var str = "Promoting labor rights,Environmental sustainability,Increasing awareness";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
@@ -116,7 +114,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
         .enter()
         .append("tspan")
         .attr("x","0")
-				.attr("dy","1em")
+				.attr("dy","1.1em")
         .attr('class', 'atext')
         .text(function (d) {
         return d;

@@ -78,5 +78,5 @@ function add()
       }
     };
 $(".continu").click(function(event){
-window.location.href="/index2.html";
+window.location.href="/page2.html";
 })

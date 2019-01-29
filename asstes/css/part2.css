@@ -1,12 +1,19 @@
 .st0{fill:none;}
 .st1{fill:#3F3E32;}
-.st2{font-family:'BreeSerif-Regular';}
+.st2{
+    font-family:'Bree Serif', serif; 
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
 .st3{font-size:45.4003px;}
 .st4{fill:none;stroke:#3C3C3B;stroke-width:3.7834;stroke-miterlimit:10;}
-.st5{font-family:'FiraSans-Light';}
+.st5{
+    font-family:'Fira Sans', sans-serif;
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300") ;}
 .st6{font-size:13.6201px;}
 .st16{fill:#202020;}
-.st17{font-family:'FiraSans-Regular';}
+.st17{
+    font-family:'Fira Sans', sans-serif;
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans" ) ;
+}
 .st18{font-size:11px;}
 .st20{fill:#FFFFFF;}
 .stroke{fill:none;stroke:#3C3C3B}
@@ -16,7 +23,8 @@
 .text-button{
     fill:#3C3C3B;
     font-size:10px;
-    font-family:'BreeSerif-Regular';
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
 }
 *{
     padding:0;

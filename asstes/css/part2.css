@@ -72,6 +72,16 @@
 #import_pic2{
   display:none;
 }
+/*p3_pic*/
+.water_pic{
+  opacity:0;
+}
+.water_pic.show{
+  opacity:1;
+}
+
+
+
 .greeny{fill:#8ABE42;}
 .whitee{fill:none;}
 .insid{fill:#FFFFFF;}

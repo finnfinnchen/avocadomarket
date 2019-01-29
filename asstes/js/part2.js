@@ -17,3 +17,22 @@ $("#importerbtn").click(function(event){
   $("#import_pic1").addClass("show");
 
 })
+//part3_interaction_click
+$("#avocado_btn").mouseenter(function(event){
+  $("#water_avocado").addClass("show");
+})
+$("#avocado_btn").mouseleave(function(event){
+  $("#water_avocado").removeClass("show");
+})
+$("#tomato_btn").mouseenter(function(event){
+  $("#water_tomato").addClass("show");
+})
+$("#tomato_btn").mouseleave(function(event){
+  $("#water_tomato").removeClass("show");
+})
+$("#orange_btn").mouseenter(function(event){
+  $("#water_orange").addClass("show");
+})
+$("#orange_btn").mouseleave(function(event){
+  $("#water_orange").removeClass("show");
+})

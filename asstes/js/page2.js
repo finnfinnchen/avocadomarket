@@ -5,29 +5,122 @@ var x=0;
 for(var i = 0, len = avocados.length; i < len; ++i){
   // i的值为0 1 2， id 为no1 no2 no3
   var id = "#no" + (i + 1);
+  var idadd = "#se" + (i + 1);
   switch(avocados[i]){
     case "mexico":
-      $(id).text((i + 1) + ". Avocado from Mesico");
+      $(id).text("AVOCADO FROM MEXICO");
+      $(id).click(function(event){
+      window.location.href="/part2.html";
+      })
+
+      //$(id).attr('/index2.html');
+      $(idadd).text('Water scarcity');
+      var str = "Deforestation,Mafia,+424g CO2 emissions";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+    return d;
+  });
+
+      //$(idadd).text(Water scarcity,Deforestation,Mafia,+424g CO2 emissions);
+      //Water scarcity,Deforestation,Mafia,+424g CO2 emissions
       x+=1.06;
       break;
     case "chile":
-      $(id).text((i + 1) + ". Avocado from Chile");
+      $(id).text("AVOCADO FROM CHILE");
+      $(idadd).text("Water Scarcity");
+      var str = "Deforestation,Mafia,+424g CO2 emissions";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+    return d;
+  });
       x+=1.30;
       break;
     case "israel":
-      $(id).text((i + 1) + ". Avocado from Israel");
+      $(id).text("AVOCADO FROM ISRAEL");
+      $(idadd).text("Water Scarcity");
+      var str = "+424g CO2 emissions";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+        return d;
+        });
       x+=1.40;
       break;
     case "Columbia":
-      $(id).text((i + 1) + ". Avocado from Columbia");
+      $(id).text("AVOCADO FROM COLOMBIA");
+      $(idadd).text("Deforestation");
+      var str = "Thefts,+424g CO2 emissions";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+        return d;
+        });
       x+=1.10;
       break;
     case "NewZealand":
-      $(id).text((i + 1) + ". Avocado from NewZealand");
+      $(id).text("AVOCADO FROM NEW ZEALAND");
+      $(idadd).text("Thefts");
+      var str = "+424g CO2 emissions";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+        return d;
+        });
       x+=1.50;
       break;
     case "fairtrade":
-      $(id).text((i + 1) + ". Avocado from Fairtrade");
+      $(id).text("AVOCADO FROM  FAIRTRADE");
+      $(idadd).text("Helping small-scale farmers");
+      var str = "Promoting labor rights,Pushing environmental sustainability,Increasing consumer awareness";
+      var strs = str.split(",") ;
+      d3.select(idadd)
+        .selectAll("tspan")
+        .data(strs)
+        .enter()
+        .append("tspan")
+        .attr("x","0")
+				.attr("dy","1em")
+        .attr('class', 'atext')
+        .text(function (d) {
+        return d;
+        });
       x+=7;
       break;
     default:

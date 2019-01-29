@@ -1,14 +1,22 @@
-.st0{fill:none;}
-.st1{fill:#3F3E32;}
-.st2{
-    font-family:'Bree Serif', serif; 
-    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
-.st3{font-size:45.4003px;}
-.st4{fill:none;stroke:#3C3C3B;stroke-width:3.7834;stroke-miterlimit:10;}
-.st5{
-    font-family:'Fira Sans', sans-serif;
-    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300") ;}
-.st6{font-size:13.6201px;}
+.st0{
+  fill:none;
+}
+.title{
+    fill:#3F3E32;
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
+    font-size:45.4003px;
+  }
+  .text{
+      font-family:'Fira Sans', sans-serif;
+      src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+      font-size:13.6201px;
+    }
+.st4{
+  fill:none;stroke:#3C3C3B;
+  stroke-width:3.7834;
+  stroke-miterlimit:10;
+}
 .st16{fill:#202020;}
 .st17{
     font-family:'Fira Sans', sans-serif;

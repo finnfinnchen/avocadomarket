@@ -13,9 +13,30 @@
       font-size:13.6201px;
     }
 .st4{
-  fill:none;stroke:#3C3C3B;
+  fill:none;
+  stroke:#3C3C3B;
   stroke-width:3.7834;
   stroke-miterlimit:10;
+}
+.p3_btn{
+  fill:#000000;
+  opacity:0;
+}
+.p3_btn:hover{
+  fill:#000000;
+  opacity:0.5;
+}
+.btn{
+  opacity:0;
+}
+.btn:hover{
+  opacity:0.4;
+}
+.Tble{
+  opacity:0;
+}
+.Tble.visible{
+  opacity:1;
 }
 .st16{fill:#202020;}
 .st17{

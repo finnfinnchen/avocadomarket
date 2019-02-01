@@ -1,22 +1,77 @@
-.st0{fill:none;}
-.st1{fill:#3F3E32;}
-.st2{
-    font-family:'Bree Serif', serif; 
-    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
-.st3{font-size:45.4003px;}
-.st4{fill:none;stroke:#3C3C3B;stroke-width:3.7834;stroke-miterlimit:10;}
-.st5{
-    font-family:'Fira Sans', sans-serif;
-    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300") ;}
-.st6{font-size:13.6201px;}
-.st16{fill:#202020;}
-.st17{
+.st0{
+  fill:none;
+}
+.title{
+    fill:#3F3E32;
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
+    font-size:45.4003px;
+  }
+  .text{
+      font-family:'Fira Sans', sans-serif;
+      src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+      font-size:13.6201px;
+    }
+.st4{
+  fill:none;
+  stroke:#3C3C3B;
+  stroke-width:3.7834;
+  stroke-miterlimit:10;
+}
+.p3_btn{
+  fill:#000000;
+  opacity:0;
+}
+.p3_btn:hover{
+  fill:#000000;
+  opacity:0.5;
+}
+.btn{
+  opacity:0;
+}
+.btn:hover{
+  opacity:0.4;
+}
+.Tble{
+  opacity:0;
+}
+.Tble.visible{
+  opacity:1;
+}
+
+.imex_text{
+    fill:#202020;
     font-family:'Fira Sans', sans-serif;
     src : url("https://fonts.googleapis.com/css?family=Fira+Sans" ) ;
+    font-size:11px;
 }
-.st18{font-size:11px;}
+
 .st20{fill:#FFFFFF;}
-.stroke{fill:none;stroke:#3C3C3B}
+
+.p2btn_bk{
+  fill:none;
+  stroke:#3C3C3B
+}
+.btn_p2:hover{
+  opacity:0.5;
+}
+.p2btn_bk.click{
+  fill:#000000;
+}
+
+.imex_text.click{
+  fill:#FFFFFF;
+}
+/*p2_pic*/
+.p2_pic.show{
+  opacity:1;
+}
+.p2_pic.hide{
+  opacity:0;
+}
+#import_pic2{
+  display:none;
+}
 .greeny{fill:#8ABE42;}
 .whitee{fill:none;}
 .insid{fill:#FFFFFF;}

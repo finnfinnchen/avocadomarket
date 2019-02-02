@@ -59,7 +59,7 @@ $('.btn').click(function(event){
 var count = 0;
 function add()
     {
-      if(count < 3){
+      if(count < 1){
         count++;
         //将count组合成字符串 "#a1" 放进jq的选择器中即可
         //调整了三个牛油果的id，现在从右至左
@@ -68,7 +68,7 @@ function add()
         // 使用console打印调试信息
         console.log("id: " + id + " has been set to visible");
       }
-      if(count == 3)
+      if(count == 1)
       {
         $(".continu").addClass('visible');
         console.log("count: have reached its maxium value" + count);
@@ -82,5 +82,5 @@ function add()
       }
     };
 $(".continu").click(function(event){
-window.location.href="/page2.html";
+window.location.href="/page2_1.html";
 })

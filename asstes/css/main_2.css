@@ -15,6 +15,10 @@
 .btn{
   cursor: pointer;
 }
+.btnok{
+  opacity:0;
+  cursor: pointer;
+}
 .avo{
   opacity:0;
 }

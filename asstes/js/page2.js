@@ -13,7 +13,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       window.location.href="/part2.html";
       })
       $(idadd).text('Water scarcity');
-      var str = "Deforestation,Mafia,+424g CO2 emissions";
+      var str = "Deforestation,Mafia";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
@@ -34,7 +34,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "chile":
       $(id).text("AVOCADO FROM CHILE");
       $(idadd).text("Water Scarcity");
-      var str = "Deforestation,Mafia,+424g CO2 emissions";
+      var str = "Deforestation,Mafia";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
@@ -52,25 +52,12 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "israel":
       $(id).text("AVOCADO FROM ISRAEL");
       $(idadd).text("Water Scarcity");
-      var str = "+424g CO2 emissions";
-      var strs = str.split(",") ;
-      d3.select(idadd)
-        .selectAll("tspan")
-        .data(strs)
-        .enter()
-        .append("tspan")
-        .attr("x","0")
-				.attr("dy","1.1em")
-        .attr('class', 'atext')
-        .text(function (d) {
-        return d;
-        });
       x+=1.40;
       break;
     case "Columbia":
       $(id).text("AVOCADO FROM COLOMBIA");
       $(idadd).text("Deforestation");
-      var str = "Thefts,+424g CO2 emissions";
+      var str = "Thefts";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
@@ -88,19 +75,6 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "NewZealand":
       $(id).text("AVOCADO FROM NEW ZEALAND");
       $(idadd).text("Thefts");
-      var str = "+424g CO2 emissions";
-      var strs = str.split(",") ;
-      d3.select(idadd)
-        .selectAll("tspan")
-        .data(strs)
-        .enter()
-        .append("tspan")
-        .attr("x","0")
-				.attr("dy","1.1em")
-        .attr('class', 'atext')
-        .text(function (d) {
-        return d;
-        });
       x+=1.50;
       break;
     case "fairtrade":

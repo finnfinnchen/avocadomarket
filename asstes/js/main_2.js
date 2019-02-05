@@ -3,6 +3,10 @@ $('#closed').click(function(event){
   $('#warn').css('display','none');
   $('#closed').off('click');
 })
+$('#ok').click(function(event){
+  $('#warn').css('display','none');
+  $('#ok').off('click');
+})
 //mouseenter
 //chile
 $("#chile").mouseenter(function(){

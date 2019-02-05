@@ -17,10 +17,11 @@
 
 .btn{
   cursor: pointer;
+  opacity:0;
 }
 .btn.click{
   cursor: pointer;
-  opacity:0.4;
+  opacity:0.2;
 }
 .lab1{
   opacity:0;

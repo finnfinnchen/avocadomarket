@@ -237,3 +237,15 @@ $("#x").click(function(event){
     $("#equal-exchange").hide();
 }
 })
+
+//part8
+$('#gobacktom').hide();
+$("#btn_goback").mouseenter(function(event){
+  $('#gobacktom').show();
+})
+$("#btn_goback").mouseleave(function(event){
+  $('#gobacktom').hide();
+})
+$("#btn_goback").click(function(event){
+window.location.href="/index.html";
+})

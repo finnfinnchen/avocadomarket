@@ -110,6 +110,20 @@
   display:none;
 }
 
+.btn_8{
+  fill: #FFFFFF;
+  font-family:'Bree Serif', serif;
+  src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
+  font-size:29px;
+}
+
+.backclick{
+  opacity:0;
+  cursor: pointer;
+}
+
+
+
 /*super_link*/
 .text-button{
     fill:#3C3C3B;

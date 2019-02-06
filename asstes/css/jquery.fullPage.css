@@ -73,12 +73,12 @@ html, body {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #000 transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #000;
 }
 .fp-scrollable {
     overflow: scroll;
@@ -123,7 +123,7 @@ html, body {
     display: block;
     width: 14px;
     height: 13px;
-    margin: 7px;
+    margin: 10px;
     position:relative;
 }
 .fp-slidesNav ul li {
@@ -158,9 +158,10 @@ html, body {
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;

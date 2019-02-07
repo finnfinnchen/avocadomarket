@@ -10,10 +10,10 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "mexico":
       $(id).text("AVOCADO FROM MEXICO");
       $(id).click(function(event){
-      window.location.href="/part2.html";
+      window.location.href="/part2.html#5rdPage";
       })
-      $(idadd).text('Water scarcity');
-      var str = "Deforestation,Mafia";
+      $(idadd).text('Mafia');
+      var str = "Deforestation,Water scarcity";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
@@ -33,6 +33,9 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       break;
     case "chile":
       $(id).text("AVOCADO FROM CHILE");
+      $(id).click(function(event){
+      window.location.href="/part2.html#3rdPage";
+      })
       $(idadd).text("Water Scarcity");
       var str = "Deforestation,Mafia";
       var strs = str.split(",") ;
@@ -51,11 +54,17 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       break;
     case "israel":
       $(id).text("AVOCADO FROM ISRAEL");
+      $(id).click(function(event){
+      window.location.href="/part2.html#3rdPage";
+      })
       $(idadd).text("Water Scarcity");
       x+=1.40;
       break;
     case "Columbia":
       $(id).text("AVOCADO FROM COLOMBIA");
+      $(id).click(function(event){
+      window.location.href="/part2.html#4thPage";
+      })
       $(idadd).text("Deforestation");
       var str = "Thefts";
       var strs = str.split(",") ;
@@ -74,11 +83,17 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       break;
     case "NewZealand":
       $(id).text("AVOCADO FROM NEW ZEALAND");
+      $(id).click(function(event){
+      window.location.href="/part2.html#6thPage";
+      })
       $(idadd).text("Thefts");
       x+=1.50;
       break;
     case "fairtrade":
       $(id).text("AVOCADO FROM  FAIRTRADE");
+      $(id).click(function(event){
+      window.location.href="/part2.html";
+      })
       $(idadd).text("Helping small-scale farmers");
       var str = "Promoting labor rights,Environmental sustainability,Increasing awareness";
       var strs = str.split(",") ;

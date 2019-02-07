@@ -1,3 +1,13 @@
+//ABOUT
+$("#closed").off("click");
+$("#about").click(function(event){
+$("#popup").css("display","block")
+$("#closed").on("click");
+})
+$("#closed").click(function(event){
+$("#popup").css('display','none');
+$("#closed").off("click");
+})
 //mouseenter
 $("#btntost").mouseenter(function(){
   $(".lab1").addClass('visible');

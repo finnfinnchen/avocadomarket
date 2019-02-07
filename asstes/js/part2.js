@@ -3,6 +3,10 @@ $("#tablet_btn").click(function(event){
   $("#tablet").addClass('visible');
 
 })
+$("#closed").click(function(event){
+  $("#tablet").removeClass('visible');
+
+})
 //part2_interaction_click
 
 $("#exporterbtn").click(function(event){
@@ -34,27 +38,27 @@ $("#importerbtn").click(function(event){
 //part3_interaction_click
 $("#avocado_btn").mouseenter(function(event){
   $("#water_avocado").addClass("show");
-  $('#boardtext').hide();
+  //$('#boardtext').hide();
 })
 $("#avocado_btn").mouseleave(function(event){
   $("#water_avocado").removeClass("show");
-  $('#boardtext').show();
+  //$('#boardtext').show();
 })
 $("#tomato_btn").mouseenter(function(event){
   $("#water_tomato").addClass("show");
-  $('#boardtext').hide();
+  //$('#boardtext').hide();
 })
 $("#tomato_btn").mouseleave(function(event){
   $("#water_tomato").removeClass("show");
-  $('#boardtext').show();
+  //$('#boardtext').show();
 })
 $("#orange_btn").mouseenter(function(event){
   $("#water_orange").addClass("show");
-  $('#boardtext').hide();
+  //$('#boardtext').hide();
 })
 $("#orange_btn").mouseleave(function(event){
   $("#water_orange").removeClass("show");
-  $('#boardtext').show();
+  //$('#boardtext').show();
 })
 //part4_interaction_click
 $('#btn1').click(function(event){

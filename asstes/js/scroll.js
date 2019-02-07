@@ -12,7 +12,7 @@ $(document).ready(function() {
         sectionsColor : ['#e6e2b1', '#e6e2b1','#e6e2b1', '#e6e2b1','#e6e2b1', '#e6e2b1','#e6e2b1'],
         navigationColor : ['#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580'],
         navigationTooltips : ['"Green gold"','Exporter and Importer','Stolen water','Space to the plantation',
-        'Blood avocados','Where is my avo','Know your avocado','Spread the seeds'],
+        'Blood avocados','Where is my avo','Know your avocado','Conclusion'],
     });
 
     //methods

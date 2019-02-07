@@ -7,7 +7,7 @@
     src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
     font-size:45.4003px;
   }
-  .text{
+.text{
       font-family:'Fira Sans', sans-serif;
       src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
       font-size:13.6201px;
@@ -48,6 +48,10 @@
 }
 
 .st20{fill:#FFFFFF;}
+.closebtn{
+  opacity:0;
+  cursor: pointer;
+}
 /*p2_interation*/
 .btext{
   fill:#3F3E32;
@@ -111,14 +115,14 @@
 }
 
 .btn_8{
-  fill: #FFFFFF;
-  font-family:'Bree Serif', serif;
-  src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
-  font-size:29px;
+  fill: #000000;
 }
 
 .backclick{
-  opacity:0;
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+  font-size:11px;
   cursor: pointer;
 }
 
@@ -127,7 +131,7 @@
 /*super_link*/
 .text-button{
     fill:#3C3C3B;
-    font-size:10px;
+    font-size:12px;
     font-family:'Bree Serif', serif;
     src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
 

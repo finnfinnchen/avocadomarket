@@ -6,7 +6,9 @@
   opacity:0;
   cursor:pointer;
 }
-
+.pp{
+  display:none;
+}
 .st1{
   fill:#4C4C4C;
   font-family:'NittiBasic-Medium';

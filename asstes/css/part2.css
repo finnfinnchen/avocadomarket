@@ -94,13 +94,15 @@
 
 /*p4*/
 .p4_ph{
-  opacity:0
+  opacity:0;
+  cursor:pointer;
 }
 .p4_ph.show{
   opacity:1;
 }
 .p4_pic{
-  opacity:1
+  opacity:1;
+  cursor:pointer;
 }
 .p4_pic.hide{
   opacity:0;

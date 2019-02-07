@@ -21,6 +21,9 @@
   src : url("https://fonts.googleapis.com/css?family=Inconsolata");
   font-size:16px;
 }
+.result{
+  cursor:pointer;
+}
 .result:hover
 {
 text-decoration:underline;

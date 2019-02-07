@@ -11,7 +11,7 @@ $(document).ready(function() {
         scrollOverflow: false,
         sectionsColor : ['#e6e2b1', '#e6e2b1','#e6e2b1', '#e6e2b1','#e6e2b1', '#e6e2b1','#e6e2b1'],
         navigationColor : ['#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580','#b8c580'],
-        navigationTooltips : ['"Green gold"','Exporter and Importer','Stolen water','Space to the plantation',
+        navigationTooltips : ['"Green gold"','Avocado trade','Stolen water','Space to the plantation',
         'Blood avocados','Where is my avo','Know your avocado','Conclusion'],
     });
 

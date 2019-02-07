@@ -10,7 +10,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
     case "mexico":
       $(id).text("AVOCADO FROM MEXICO");
       $(id).click(function(event){
-      window.location.href="/part2.html#5rdPage";
+      window.location.href="/part2.html#5thPage";
       })
       $(idadd).text('Mafia');
       var str = "Deforestation,Water scarcity";
